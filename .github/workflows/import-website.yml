@@ -32,6 +32,13 @@ jobs:
               path.parent.mkdir(parents=True,exist_ok=True)
               path.write_text(contents)
           print("Extracted",len(files),"verified source files with unsupported-service notes.")
+      - name: Upgrade the original legacy HTTP asset URL to HTTPS
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p=Path("reference/import-assets.json")
+          p.write_text(p.read_text().replace("http://static1.squarespace.com/", "https://static1.squarespace.com/"))
+          PY
       - name: Import verified artwork, styles and fonts
         run: python scripts/import_assets.py
       - name: Commit complete source and original assets
