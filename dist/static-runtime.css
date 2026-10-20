@@ -1,0 +1,30 @@
+/* Runtime-only parity repairs. Original source CSS owns visual design. */
+html{scroll-behavior:smooth}
+img{max-width:100%}
+.header-nav-item--folder:focus-within .header-nav-folder-content,.static-folder-open .header-nav-folder-content{opacity:1!important;pointer-events:auto!important;visibility:visible!important}
+.header-menu{visibility:hidden}
+.header--menu-open .header-menu{visibility:visible;opacity:1;pointer-events:auto}
+.header--menu-open{overflow:hidden}
+.header-menu-nav-folder{visibility:hidden;opacity:0;pointer-events:none}
+.header--menu-open .header-menu-nav-folder--active{visibility:visible;opacity:1;pointer-events:auto}
+.gallery-grid,.gallery-masonry,.gallery-fullscreen-slideshow{opacity:1!important}
+.gallery-grid-item,.gallery-masonry-item{opacity:1!important;transform:none!important}
+.gallery-grid-item img{opacity:1!important}
+.gallery-masonry-wrapper{position:relative}
+.static-embed{position:relative;aspect-ratio:16/9;height:auto!important}
+.static-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.instagram-block .sqs-gallery{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+.instagram-block .slide{display:block!important;float:none!important;width:auto!important;position:relative!important;opacity:1!important}
+.instagram-block .margin-wrapper{margin:0!important}
+.instagram-block .image-slide-anchor{display:block!important;aspect-ratio:1;height:auto!important;position:relative}
+.instagram-block img{display:block!important;position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.newsletter-form-button{display:inline-block;text-decoration:none;cursor:pointer}
+.newsletter-form input:disabled{opacity:1;cursor:pointer}
+.gallery-fullscreen-slideshow-item[data-active="false"]{opacity:0;visibility:hidden}
+.gallery-fullscreen-slideshow-item[data-active="true"]{opacity:1;visibility:visible}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.gallery-grid-item-wrapper,.gallery-masonry-item-wrapper{opacity:1!important}
+.instagram-block .image-slide-anchor{padding:0!important;overflow:hidden}
+.unsupported-feature-note{box-sizing:border-box;border:1px solid currentColor;padding:24px;font-family:inherit;font-size:1rem;line-height:1.6}
+.unsupported-feature-note strong{display:block;font-weight:700}
+.unsupported-feature-note p{margin:12px 0 0!important}

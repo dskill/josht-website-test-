@@ -1,0 +1,6 @@
+_site/
+__pycache__/
+.openai/
+*.tar.gz
+dist/source.zip
+dist/responsive-check.html

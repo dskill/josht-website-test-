@@ -1,0 +1,92 @@
+[
+  {
+    "route": "/about",
+    "source": "about.html",
+    "images": 8,
+    "textBlocks": 9
+  },
+  {
+    "route": "/classes-events",
+    "source": "classes-events.html",
+    "images": 3,
+    "textBlocks": 2
+  },
+  {
+    "route": "/contact",
+    "source": "contact.html",
+    "images": 3,
+    "textBlocks": 4
+  },
+  {
+    "route": "/dream-on",
+    "source": "dream-on.html",
+    "images": 6,
+    "textBlocks": 8
+  },
+  {
+    "route": "/events-1",
+    "source": "events-1.html",
+    "images": 37,
+    "textBlocks": 61
+  },
+  {
+    "route": "/events",
+    "source": "events.html",
+    "images": 10,
+    "textBlocks": 46
+  },
+  {
+    "route": "/gallery",
+    "source": "gallery.html",
+    "images": 29,
+    "textBlocks": 2
+  },
+  {
+    "route": "/",
+    "source": "index.html",
+    "images": 19,
+    "textBlocks": 32
+  },
+  {
+    "route": "/press",
+    "source": "press.html",
+    "images": 16,
+    "textBlocks": 19
+  },
+  {
+    "route": "/pressog",
+    "source": "pressog.html",
+    "images": 10,
+    "textBlocks": 9
+  },
+  {
+    "route": "/projects",
+    "source": "projects.html",
+    "images": 19,
+    "textBlocks": 32
+  },
+  {
+    "route": "/sketchbook",
+    "source": "sketchbook.html",
+    "images": 31,
+    "textBlocks": 2
+  },
+  {
+    "route": "/totheriver",
+    "source": "totheriver.html",
+    "images": 3,
+    "textBlocks": 3
+  },
+  {
+    "route": "/we-are-not-strangers",
+    "source": "we-are-not-strangers.html",
+    "images": 12,
+    "textBlocks": 18
+  },
+  {
+    "route": "/whyblue",
+    "source": "whyblue.html",
+    "images": 6,
+    "textBlocks": 8
+  }
+]
