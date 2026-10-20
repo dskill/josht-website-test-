@@ -13,6 +13,10 @@ for f in output.rglob('*'):
  if not f.is_file():continue
  if f.suffix in ['.html','.css']:
   s=f.read_text()
+  # Remove the original hidden Squarespace cart endpoint and keep mobile folders local.
+  s=s.replace('href="https://www.joshtuininga.com/cart"','aria-disabled="true" title="Shopping cart is not supported on this static site."')
+  s=s.replace('href="https://www.joshtuininga.com/projects-1"','href="#books"')
+  s=s.replace('https:/assets/original/','/assets/original/')
   s=re.sub(r'((?:href|src|poster)=["\'])(/(?!/)[^"\']*)',prefix_url,s)
   s=re.sub(r'(url\(["\']?)(/(?!/)[^\)"\']*)',prefix_url,s)
   f.write_text(s)

@@ -27,7 +27,7 @@ Maintenance tools are separate at `guide.html` and `editor.html`, not added to t
 
 ## Static-site limitations
 
-- Newsletter and contact widgets are removed and clearly labeled unsupported; nothing is collected or forwarded.
+- Newsletter and contact widgets are removed and clearly labeled unsupported; nothing is collected or forwarded. The original Squarespace cart is disabled in the published output.
 - Squarespace iCalendar downloads are disabled and labeled unsupported. Legacy event-detail links still lead to the original public pages; this is not a full archive migration.
 - Instagram images are a frozen snapshot, not a live feed.
 - Original provider embeds and outbound book-purchase links remain external dependencies.
