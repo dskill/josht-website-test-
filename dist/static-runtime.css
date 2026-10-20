@@ -6,7 +6,7 @@ img{max-width:100%}
 .header--menu-open .header-menu{visibility:visible;opacity:1;pointer-events:auto}
 .header--menu-open{overflow:hidden}
 .header-menu-nav-folder{visibility:hidden;opacity:0;pointer-events:none}
-.header--menu-open .header-menu-nav-folder--active{visibility:visible;opacity:1;pointer-events:auto}
+.header--menu-open .header-menu-nav-folder--active{display:flex!important;visibility:visible;opacity:1;pointer-events:auto}
 .gallery-grid,.gallery-masonry,.gallery-fullscreen-slideshow{opacity:1!important}
 .gallery-grid-item,.gallery-masonry-item{opacity:1!important;transform:none!important}
 .gallery-grid-item img{opacity:1!important}
