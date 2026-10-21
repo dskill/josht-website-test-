@@ -4,23 +4,16 @@
     {
       "title": "Texas Library Association",
       "subtitle": "Mavericks Reading List Legacy Panel ",
-      "when": "April 19, 9:30AM",
-      "details": "",
-      "url": "",
-      "link_label": "",
-      "image": "",
-      "image_alt": ""
+      "when": "April 19, 9:30AM"
     },
     {
       "title": "Mill Creek Middle School",
-      "subtitle": "",
-      "when": "April 13th, 1pm",
-      "details": "",
-      "url": "",
-      "link_label": "",
-      "image": "",
-      "image_alt": ""
+      "when": "April 13th, 1pm"
+    },
+    {
+      "title": "Drew’s test ",
+      "subtitle": "Hello",
+      "when": "April 5th, 2016"
     }
-  ],
-  "additional_past": []
+  ]
 }
