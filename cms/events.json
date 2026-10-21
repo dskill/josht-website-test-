@@ -1,0 +1,26 @@
+{
+  "upcoming_heading": "UPCOMING EVENTS:",
+  "upcoming": [
+    {
+      "title": "Texas Library Association",
+      "subtitle": "Mavericks Reading List Legacy Panel ",
+      "when": "April 19, 9:30AM",
+      "details": "",
+      "url": "",
+      "link_label": "",
+      "image": "",
+      "image_alt": ""
+    },
+    {
+      "title": "Mill Creek Middle School",
+      "subtitle": "",
+      "when": "April 13th, 1pm",
+      "details": "",
+      "url": "",
+      "link_label": "",
+      "image": "",
+      "image_alt": ""
+    }
+  ],
+  "additional_past": []
+}

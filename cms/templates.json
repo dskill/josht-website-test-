@@ -1,0 +1,782 @@
+{
+  "blocks": {
+    "index-0": {
+      "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\"><strong>Serious Damage</strong></span></h2>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 112,
+          "end": 126,
+          "kind": "text",
+          "original": "Serious Damage"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-1": {
+      "html": "<p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--custom\" style=\"color: #FE9295;\"><strong>A GRAFFITI STORY</strong></span></p><p class=\"\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\"><strong>COMING 2/16/27</strong></span><span class=\"sqsrte-text-color--custom\" style=\"color: #FE9295;\"><br></span><span class=\"sqsrte-text-color--lightAccent\">Graphic Memoir (Abrams ComicArts 2023)</span><span class=\"sqsrte-text-color--white\"><br><br>An autobiographical YA graphic novel set in Seattle in the early 1990s. After a life-threatening neurological diagnosis and brain surgery leave him struggling to find his place, Josh discovers solace and purpose in Seattle’s vibrant underground graffiti scene. When he and a friend stumble upon a flyer for a legendary graffiti competition, they set out to make a name for themselves—risking arrest, family trust, and their futures in pursuit of artistic recognition. Fueled by creativity, friendship, and a diverse community of mentors and fellow artists, this true coming-of-age story offers a fresh, nuanced look at the often misunderstood world of graffiti while exploring resilience, identity, and the healing power of art.</span></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 157,
+          "end": 173,
+          "kind": "text",
+          "original": "A GRAFFITI STORY"
+        },
+        {
+          "key": "text_02",
+          "start": 313,
+          "end": 327,
+          "kind": "text",
+          "original": "COMING 2/16/27"
+        },
+        {
+          "key": "text_03",
+          "start": 463,
+          "end": 501,
+          "kind": "text",
+          "original": "Graphic Memoir (Abrams ComicArts 2023)"
+        },
+        {
+          "key": "text_04",
+          "start": 555,
+          "end": 1283,
+          "kind": "text",
+          "original": "An autobiographical YA graphic novel set in Seattle in the early 1990s. After a life-threatening neurological diagnosis and brain surgery leave him struggling to find his place, Josh discovers solace and purpose in Seattle’s vibrant underground graffiti scene. When he and a friend stumble upon a flyer for a legendary graffiti competition, they set out to make a name for themselves—risking arrest, family trust, and their futures in pursuit of artistic recognition. Fueled by creativity, friendship, and a diverse community of mentors and fellow artists, this true coming-of-age story offers a fresh, nuanced look at the often misunderstood world of graffiti while exploring resilience, identity, and the healing power of art."
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-2": {
+      "html": "<p class=\"\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><a target=\"_blank\" href=\"https://www.amazon.com/dp/1419783181?lv=shuf&amp;language=he&amp;channelId=500&amp;plpRedirect=mhFallback\" rel=\"noopener noreferrer\"><span class=\"sqsrte-text-color--lightAccent\">Amazon‍</span></a><span class=\"sqsrte-text-color--lightAccent\">    ‍</span><a target=\"_blank\" href=\"https://www.barnesandnoble.com/w/serious-damage-josh-tuininga/1149412272?ean=9781419783180\" rel=\"noopener noreferrer\"><span class=\"sqsrte-text-color--lightAccent\">Barnes &amp; Noble</span></a></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 276,
+          "end": 283,
+          "kind": "text",
+          "original": "Amazon‍"
+        },
+        {
+          "key": "text_02",
+          "start": 539,
+          "end": 557,
+          "kind": "text",
+          "original": "Barnes & Noble"
+        },
+        {
+          "key": "link_01",
+          "start": 98,
+          "end": 203,
+          "kind": "link",
+          "original": "https://www.amazon.com/dp/1419783181?lv=shuf&language=he&channelId=500&plpRedirect=mhFallback"
+        },
+        {
+          "key": "link_02",
+          "start": 376,
+          "end": 466,
+          "kind": "link",
+          "original": "https://www.barnesandnoble.com/w/serious-damage-josh-tuininga/1149412272?ean=9781419783180"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-3": {
+      "html": "<p style=\"white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\"><strong><em>“</em></strong></span><span class=\"sqsrte-text-color--white\"><strong>Josh Tuininga  offers a heartfelt, insightful perspective on the thrill of self-expression in the face of mortality, and of being transformed by art during a transitional era in pop culture. Fantastic from start to finish.\"</strong></span></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 205,
+          "end": 428,
+          "kind": "text",
+          "original": "Josh Tuininga  offers a heartfelt, insightful perspective on the thrill of self-expression in the face of mortality, and of being transformed by art during a transitional era in pop culture. Fantastic from start to finish.\""
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-4": {
+      "html": "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\">Nate Powell  |  <em>The March Trilogy</em></span></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 103,
+          "end": 119,
+          "kind": "text",
+          "original": "Nate Powell  |  "
+        },
+        {
+          "key": "text_02",
+          "start": 123,
+          "end": 140,
+          "kind": "text",
+          "original": "The March Trilogy"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-5": {
+      "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\"><strong>We Are Not Strangers</strong></span></h2>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 117,
+          "end": 137,
+          "kind": "text",
+          "original": "We Are Not Strangers"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-6": {
+      "html": "<p class=\"\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--custom\" style=\"color: #5DA1BA;\"><strong>INSPIRED BY A TRUE STORY</strong></span><br><span class=\"sqsrte-text-color--darkAccent\">(Abrams ComicArts 2023)<br><br>When Marco Calvo arrives at the Jewish Synagogue to attend his grandfather's funeral, he is caught off guard by something very unexpected. Among his close family and friends there are some people he doesn't recognize at all. Several Japanese American families have arrived and no one is quite sure why they are here. Who are these strangers that knew his grandfather so well? </span></p><p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--custom\" style=\"color: #5DA1BA;\"><strong>AWARDS &amp; HONORS</strong></span></p><p class=\"sqsrte-small\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\"><strong>2024 </strong>Washington State Book Award  |  <strong>FINALIST<br>2024</strong>National EGLA AWARD |  Best YA Non-Fiction Graphic Novel <strong>WINNER<br>2024</strong>National Jewish Book Award  |  <strong>FINALIST<br>2024 </strong>American Library Association |Sophie Brody Medal<strong> HONOREE<br>2024</strong> KCLS Literary Lions  | <strong> HONOR<br>2024</strong>Anti-Defamation League | <strong>Books Matter Collection<br>2024</strong>Jewish Comic Experience | Combating Prejudice <strong>AWARD<br>2025 </strong>Tacoma Public LIbrary  |  <strong>Tacoma Reads Book of 2025</strong><br><strong>2026 </strong>King County Library  | <strong>Redmond Reads Book of 2026</strong></span></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 145,
+          "end": 169,
+          "kind": "text",
+          "original": "INSPIRED BY A TRUE STORY"
+        },
+        {
+          "key": "text_02",
+          "start": 233,
+          "end": 256,
+          "kind": "text",
+          "original": "(Abrams ComicArts 2023)"
+        },
+        {
+          "key": "text_03",
+          "start": 264,
+          "end": 640,
+          "kind": "text",
+          "original": "When Marco Calvo arrives at the Jewish Synagogue to attend his grandfather's funeral, he is caught off guard by something very unexpected. Among his close family and friends there are some people he doesn't recognize at all. Several Japanese American families have arrived and no one is quite sure why they are here. Who are these strangers that knew his grandfather so well? "
+        },
+        {
+          "key": "text_04",
+          "start": 808,
+          "end": 827,
+          "kind": "text",
+          "original": "AWARDS & HONORS"
+        },
+        {
+          "key": "text_05",
+          "start": 984,
+          "end": 989,
+          "kind": "text",
+          "original": "2024 "
+        },
+        {
+          "key": "text_06",
+          "start": 998,
+          "end": 1030,
+          "kind": "text",
+          "original": "Washington State Book Award  |  "
+        },
+        {
+          "key": "text_07",
+          "start": 1038,
+          "end": 1046,
+          "kind": "text",
+          "original": "FINALIST"
+        },
+        {
+          "key": "text_08",
+          "start": 1050,
+          "end": 1054,
+          "kind": "text",
+          "original": "2024"
+        },
+        {
+          "key": "text_09",
+          "start": 1063,
+          "end": 1120,
+          "kind": "text",
+          "original": "National EGLA AWARD |  Best YA Non-Fiction Graphic Novel "
+        },
+        {
+          "key": "text_10",
+          "start": 1128,
+          "end": 1134,
+          "kind": "text",
+          "original": "WINNER"
+        },
+        {
+          "key": "text_11",
+          "start": 1138,
+          "end": 1142,
+          "kind": "text",
+          "original": "2024"
+        },
+        {
+          "key": "text_12",
+          "start": 1151,
+          "end": 1182,
+          "kind": "text",
+          "original": "National Jewish Book Award  |  "
+        },
+        {
+          "key": "text_13",
+          "start": 1190,
+          "end": 1198,
+          "kind": "text",
+          "original": "FINALIST"
+        },
+        {
+          "key": "text_14",
+          "start": 1202,
+          "end": 1207,
+          "kind": "text",
+          "original": "2024 "
+        },
+        {
+          "key": "text_15",
+          "start": 1216,
+          "end": 1264,
+          "kind": "text",
+          "original": "American Library Association |Sophie Brody Medal"
+        },
+        {
+          "key": "text_16",
+          "start": 1272,
+          "end": 1280,
+          "kind": "text",
+          "original": " HONOREE"
+        },
+        {
+          "key": "text_17",
+          "start": 1284,
+          "end": 1288,
+          "kind": "text",
+          "original": "2024"
+        },
+        {
+          "key": "text_18",
+          "start": 1297,
+          "end": 1321,
+          "kind": "text",
+          "original": " KCLS Literary Lions  | "
+        },
+        {
+          "key": "text_19",
+          "start": 1329,
+          "end": 1335,
+          "kind": "text",
+          "original": " HONOR"
+        },
+        {
+          "key": "text_20",
+          "start": 1339,
+          "end": 1343,
+          "kind": "text",
+          "original": "2024"
+        },
+        {
+          "key": "text_21",
+          "start": 1352,
+          "end": 1377,
+          "kind": "text",
+          "original": "Anti-Defamation League | "
+        },
+        {
+          "key": "text_22",
+          "start": 1385,
+          "end": 1408,
+          "kind": "text",
+          "original": "Books Matter Collection"
+        },
+        {
+          "key": "text_23",
+          "start": 1412,
+          "end": 1416,
+          "kind": "text",
+          "original": "2024"
+        },
+        {
+          "key": "text_24",
+          "start": 1425,
+          "end": 1471,
+          "kind": "text",
+          "original": "Jewish Comic Experience | Combating Prejudice "
+        },
+        {
+          "key": "text_25",
+          "start": 1479,
+          "end": 1484,
+          "kind": "text",
+          "original": "AWARD"
+        },
+        {
+          "key": "text_26",
+          "start": 1488,
+          "end": 1493,
+          "kind": "text",
+          "original": "2025 "
+        },
+        {
+          "key": "text_27",
+          "start": 1502,
+          "end": 1528,
+          "kind": "text",
+          "original": "Tacoma Public LIbrary  |  "
+        },
+        {
+          "key": "text_28",
+          "start": 1536,
+          "end": 1561,
+          "kind": "text",
+          "original": "Tacoma Reads Book of 2025"
+        },
+        {
+          "key": "text_29",
+          "start": 1582,
+          "end": 1587,
+          "kind": "text",
+          "original": "2026 "
+        },
+        {
+          "key": "text_30",
+          "start": 1596,
+          "end": 1619,
+          "kind": "text",
+          "original": "King County Library  | "
+        },
+        {
+          "key": "text_31",
+          "start": 1627,
+          "end": 1653,
+          "kind": "text",
+          "original": "Redmond Reads Book of 2026"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-7": {
+      "html": "<p class=\"\" style=\"white-space:pre-wrap;\"><a href=\"https://www.amazon.com/Are-Not-Strangers-Josh-Tuininga/dp/1419759949/ref=asc_df_1419759949/?gclid=CjwKCAjws9ipBhB1EiwAccEi1Bt8ed4gMSXCpoWH8miQal073ULfMtCPuBPr3W53RhlUzsqGoOUl-xoC-A8QAvD_BwE&amp;hvadid=660678943857&amp;hvdev=c&amp;hvdvcmdl=&amp;hvlocint=&amp;hvlocphy=9033285&amp;hvnetw=g&amp;hvpone=&amp;hvpos=&amp;hvptwo=&amp;hvqmt=&amp;hvrand=1782396540143422243&amp;hvtargid=pla-2186678233841&amp;linkCode=df0&amp;psc=1&amp;tag=hyprod-20\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"sqsrte-text-color--lightAccent\">Amazon</span></a><span class=\"sqsrte-text-color--lightAccent\">    </span><a href=\"https://www.barnesandnoble.com/w/we-are-not-strangers-josh-tuininga/1143022663\" target=\"_blank\" rel=\"noopener noreferrer\"><span class=\"sqsrte-text-color--lightAccent\">Barnes &amp; Noble</span></a></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 580,
+          "end": 586,
+          "kind": "text",
+          "original": "Amazon"
+        },
+        {
+          "key": "text_02",
+          "start": 829,
+          "end": 847,
+          "kind": "text",
+          "original": "Barnes & Noble"
+        },
+        {
+          "key": "link_01",
+          "start": 51,
+          "end": 491,
+          "kind": "link",
+          "original": "https://www.amazon.com/Are-Not-Strangers-Josh-Tuininga/dp/1419759949/ref=asc_df_1419759949/?gclid=CjwKCAjws9ipBhB1EiwAccEi1Bt8ed4gMSXCpoWH8miQal073ULfMtCPuBPr3W53RhlUzsqGoOUl-xoC-A8QAvD_BwE&hvadid=660678943857&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9033285&hvnetw=g&hvpone=&hvpos=&hvptwo=&hvqmt=&hvrand=1782396540143422243&hvtargid=pla-2186678233841&linkCode=df0&psc=1&tag=hyprod-20"
+        },
+        {
+          "key": "link_02",
+          "start": 662,
+          "end": 740,
+          "kind": "link",
+          "original": "https://www.barnesandnoble.com/w/we-are-not-strangers-josh-tuininga/1143022663"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-8": {
+      "html": "<h3 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\"><em>“A forthright condemnation of a shameful chapter of American history and a heartening reminder of the value of community.”</em></span></h3>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 113,
+          "end": 235,
+          "kind": "text",
+          "original": "“A forthright condemnation of a shameful chapter of American history and a heartening reminder of the value of community.”"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-9": {
+      "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--black\">-Publisher’s Weekly</span></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 124,
+          "end": 143,
+          "kind": "text",
+          "original": "-Publisher’s Weekly"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-10": {
+      "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\"><strong>PAPERBACK RELEASE</strong></span></p><p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\">‘WE ARE NOT STRANGERS’ Released in Paperback! Get your copy here or wherever books are sold.</span></p><p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><a target=\"_blank\" href=\"https://bookshop.org/p/books/we-are-not-strangers-a-graphic-novel-josh-tuininga/d6225aefa1c4377e\" rel=\"noopener noreferrer\"><span class=\"sqsrte-text-color--black\"><strong>BOOKSHOP.ORG</strong></span></a><span class=\"sqsrte-text-color--black\"><strong>‍      ‍</strong></span><a target=\"_blank\" href=\"https://www.amazon.com/dp/1419759957?lv=shuf&amp;channelId=500&amp;plpRedirect=mhFallback\" rel=\"noopener noreferrer\"><span class=\"sqsrte-text-color--black\"><strong>AMAZON</strong></span></a></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 137,
+          "end": 154,
+          "kind": "text",
+          "original": "PAPERBACK RELEASE"
+        },
+        {
+          "key": "text_02",
+          "start": 282,
+          "end": 374,
+          "kind": "text",
+          "original": "‘WE ARE NOT STRANGERS’ Released in Paperback! Get your copy here or wherever books are sold."
+        },
+        {
+          "key": "text_03",
+          "start": 645,
+          "end": 657,
+          "kind": "text",
+          "original": "BOOKSHOP.ORG"
+        },
+        {
+          "key": "text_04",
+          "start": 937,
+          "end": 943,
+          "kind": "text",
+          "original": "AMAZON"
+        },
+        {
+          "key": "link_01",
+          "start": 474,
+          "end": 570,
+          "kind": "link",
+          "original": "https://bookshop.org/p/books/we-are-not-strangers-a-graphic-novel-josh-tuininga/d6225aefa1c4377e"
+        },
+        {
+          "key": "link_02",
+          "start": 773,
+          "end": 862,
+          "kind": "link",
+          "original": "https://www.amazon.com/dp/1419759957?lv=shuf&channelId=500&plpRedirect=mhFallback"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-11": {
+      "html": "<p class=\"sqsrte-large\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\"><strong>PRESS</strong></span></p><p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\">‘We Are Not Strangers’  featured on New Day Northwest. </span></p><p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><a href=\"/press\"><span class=\"sqsrte-text-color--black\"><strong>WATCH THE INTERVIEW</strong></span></a></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 137,
+          "end": 142,
+          "kind": "text",
+          "original": "PRESS"
+        },
+        {
+          "key": "text_02",
+          "start": 270,
+          "end": 325,
+          "kind": "text",
+          "original": "‘We Are Not Strangers’  featured on New Day Northwest. "
+        },
+        {
+          "key": "text_03",
+          "start": 464,
+          "end": 483,
+          "kind": "text",
+          "original": "WATCH THE INTERVIEW"
+        },
+        {
+          "key": "link_01",
+          "start": 409,
+          "end": 415,
+          "kind": "link",
+          "original": "/press"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-12": {
+      "html": "<h2 style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\"><strong>High St.</strong></span></h2>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 117,
+          "end": 125,
+          "kind": "text",
+          "original": "High St."
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-13": {
+      "html": "<p class=\"\" style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--custom\" style=\"color: #5DA1BA;\"><strong>COMING WINTER 2027</strong></span><br><span class=\"sqsrte-text-color--darkAccent\">(Fantagraphics)<br><br></span>A dark comedy heist story about four friends struggling to make ends meet in a town taken over by capitalist growth and corporate greed. The crew’s lives change forever when their favorite movie genre starts to hit a little too close to home. <br>:<br><strong>FOLLOW ME FOR UPDATES:</strong></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 145,
+          "end": 163,
+          "kind": "text",
+          "original": "COMING WINTER 2027"
+        },
+        {
+          "key": "text_02",
+          "start": 227,
+          "end": 242,
+          "kind": "text",
+          "original": "(Fantagraphics)"
+        },
+        {
+          "key": "text_03",
+          "start": 257,
+          "end": 500,
+          "kind": "text",
+          "original": "A dark comedy heist story about four friends struggling to make ends meet in a town taken over by capitalist growth and corporate greed. The crew’s lives change forever when their favorite movie genre starts to hit a little too close to home. "
+        },
+        {
+          "key": "text_04",
+          "start": 517,
+          "end": 539,
+          "kind": "text",
+          "original": "FOLLOW ME FOR UPDATES:"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-14": {
+      "html": "<h3 style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--darkAccent\"><strong>MORE PROJECTS</strong></span></h3>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 139,
+          "end": 152,
+          "kind": "text",
+          "original": "MORE PROJECTS"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "index-15": {
+      "html": "<h3 style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\"><span class=\"sqsrte-text-color--white\"><strong>@BlueBusArt</strong></span></h3>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 134,
+          "end": 145,
+          "kind": "text",
+          "original": "@BlueBusArt"
+        }
+      ],
+      "page": "index",
+      "file": "homepage"
+    },
+    "events-0": {
+      "html": "<h3 style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">PRESENTATIONS</h3>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 87,
+          "end": 100,
+          "kind": "text",
+          "original": "PRESENTATIONS"
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-1": {
+      "html": "<p style=\"text-align: center; ; white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\">I give presentations to schools, libraries, museums, and community organizations, both in person and virtually. My talks explore the stories behind my books and the storytelling power of comics and I do my best to adapt each presentation to the audience. Programs include a behind-the-scenes look at my creative process and conclude with a Q&amp;A with the audience.</p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 107,
+          "end": 473,
+          "kind": "text",
+          "original": "I give presentations to schools, libraries, museums, and community organizations, both in person and virtually. My talks explore the stories behind my books and the storytelling power of comics and I do my best to adapt each presentation to the audience. Programs include a behind-the-scenes look at my creative process and conclude with a Q&A with the audience."
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-2": {
+      "html": "<h4 style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">We Are Not Strangers</h4>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 87,
+          "end": 107,
+          "kind": "text",
+          "original": "We Are Not Strangers"
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-3": {
+      "html": "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">This Award winning graphic novel is based on the true story of a Jewish immigrant who helped his Japanese-American neighbors when they were incarcerated during WWII. Through a visually engaging presentation, Tuininga shares the intricacies of his research and creative process, unraveling the profound lessons embedded in these tales of allyship and unity amidst the turbulence of wartime. <br></p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 64,
+          "end": 454,
+          "kind": "text",
+          "original": "This Award winning graphic novel is based on the true story of a Jewish immigrant who helped his Japanese-American neighbors when they were incarcerated during WWII. Through a visually engaging presentation, Tuininga shares the intricacies of his research and creative process, unraveling the profound lessons embedded in these tales of allyship and unity amidst the turbulence of wartime. "
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-4": {
+      "html": "<h4 style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Sequential: The Storytelling Power of Comic Books</h4>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 87,
+          "end": 136,
+          "kind": "text",
+          "original": "Sequential: The Storytelling Power of Comic Books"
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-5": {
+      "html": "<p style=\"white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Despite the graphic novel’s skyrocketing popularity, many still see comics as less serious than traditional literature. In this talk, comic artist Josh Tuininga challenges that assumption, revealing how graphic novels engage readers in uniquely powerful ways. Tracing the surprising history of sequential art, Tuininga shows how comics have shaped culture, challenged conventions, and opened new possibilities for storytelling for artists and readers of all ages.</p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 64,
+          "end": 527,
+          "kind": "text",
+          "original": "Despite the graphic novel’s skyrocketing popularity, many still see comics as less serious than traditional literature. In this talk, comic artist Josh Tuininga challenges that assumption, revealing how graphic novels engage readers in uniquely powerful ways. Tracing the surprising history of sequential art, Tuininga shows how comics have shaped culture, challenged conventions, and opened new possibilities for storytelling for artists and readers of all ages."
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-6": {
+      "html": "<p style=\"text-align: center; ; white-space:pre-wrap;\" class=\"sqsrte-large\" data-rte-preserve-empty=\"true\">“A great experience! Truly meaningful and joyful. Josh provided much insight into his process and shared his inspiration for the book. I’m so grateful!“</p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 107,
+          "end": 259,
+          "kind": "text",
+          "original": "“A great experience! Truly meaningful and joyful. Josh provided much insight into his process and shared his inspiration for the book. I’m so grateful!“"
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-7": {
+      "html": "<p style=\"text-align: center; ; white-space:pre-wrap;\" class=\"sqsrte-small\" data-rte-preserve-empty=\"true\">Kristin Sierra  | Teacher Librarian, Lincoln High School  </p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 107,
+          "end": 165,
+          "kind": "text",
+          "original": "Kristin Sierra  | Teacher Librarian, Lincoln High School  "
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-8": {
+      "html": "<p class=\"sqsrte-large\" style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">A fantastic virtual presentation! It was fascinating and the audience was clearly engaged from all of the comments and questions coming in!</p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 107,
+          "end": 246,
+          "kind": "text",
+          "original": "A fantastic virtual presentation! It was fascinating and the audience was clearly engaged from all of the comments and questions coming in!"
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    },
+    "events-9": {
+      "html": "<p class=\"sqsrte-small\" style=\"text-align: center; ; white-space:pre-wrap;\" data-rte-preserve-empty=\"true\">Ilana Cone Kennedy | COO, Holocaust Center for Humanity</p>",
+      "slots": [
+        {
+          "key": "text_01",
+          "start": 107,
+          "end": 162,
+          "kind": "text",
+          "original": "Ilana Cone Kennedy | COO, Holocaust Center for Humanity"
+        }
+      ],
+      "page": "events",
+      "file": "presentations"
+    }
+  },
+  "images": {
+    "serious_damage": {
+      "page": "index",
+      "src": "/assets/original/049f729381e1-SeriousDamage_JoshTuininga.jpg"
+    },
+    "we_are_not_strangers": {
+      "page": "index",
+      "src": "/assets/original/f14bd1f2770f-WeAreNotStrangers_WA.jpg"
+    },
+    "paperback": {
+      "page": "index",
+      "src": "/assets/original/8c151585cf44-71MJiHzLVqL._SL1482_.jpg"
+    },
+    "press": {
+      "page": "index",
+      "src": "/assets/original/929819b2edd4-sddefault.jpg"
+    },
+    "high_st": {
+      "page": "index",
+      "src": "/assets/original/184431c81164-HighSt_Cover.jpg"
+    },
+    "presentation": {
+      "page": "events",
+      "src": "/assets/original/107a603799c5-6.jpg"
+    },
+    "speaker": {
+      "page": "events",
+      "src": "/assets/original/74f1e8399696-josh_tuininga_speaker_image.jpg"
+    }
+  },
+  "upcoming_html": "<h3 style=\"text-align: center; white-space: pre-wrap\" data-rte-preserve-empty=\"true\">UPCOMING EVENTS:</h3><p style=\"text-align: center; white-space: pre-wrap\" data-rte-preserve-empty=\"true\"><strong>Texas Library Association</strong><br><strong>Mavericks Reading List Legacy Panel </strong><br>April 19, 9:30AM<br>__<br><strong>Mill Creek Middle School</strong><br>April 13th, 1pm</p>",
+  "event_defaults": {
+    "upcoming_heading": "UPCOMING EVENTS:",
+    "upcoming": [
+      {
+        "title": "Texas Library Association",
+        "subtitle": "Mavericks Reading List Legacy Panel ",
+        "when": "April 19, 9:30AM",
+        "details": "",
+        "url": "",
+        "link_label": "",
+        "image": "",
+        "image_alt": ""
+      },
+      {
+        "title": "Mill Creek Middle School",
+        "subtitle": "",
+        "when": "April 13th, 1pm",
+        "details": "",
+        "url": "",
+        "link_label": "",
+        "image": "",
+        "image_alt": ""
+      }
+    ],
+    "additional_past": []
+  }
+}

@@ -1,11 +1,13 @@
 """Prepare committed static files for any GitHub Pages base path. No content regeneration."""
 from pathlib import Path
 import argparse,re,shutil,json
+from cms_content import apply_cms
 p=argparse.ArgumentParser();p.add_argument('--base-path',default='');p.add_argument('--output',default='_site');a=p.parse_args()
 root=Path(__file__).resolve().parent; source=root/'dist'; output=root/a.output
 base='/'+a.base_path.strip('/')+'/' if a.base_path.strip('/') else '/'
 if output.exists():shutil.rmtree(output)
 shutil.copytree(source,output,ignore=shutil.ignore_patterns('responsive-check.html','source.zip'))
+apply_cms(root, output)
 def prefix_url(m):
  lead,path=m.group(1),m.group(2)
  return lead+(base+path.lstrip('/') if base!='/' else path)

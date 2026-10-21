@@ -1,0 +1,658 @@
+# Pages CMS configuration. Official docs: https://pagescms.org/docs/configuration/
+media:
+- name: images
+  label: Website images
+  input: dist/assets
+  output: /assets
+  extensions:
+  - jpg
+  - jpeg
+  - png
+  - gif
+  - webp
+  rename: safe
+content:
+- name: homepage
+  label: Homepage text
+  type: file
+  path: cms/homepage.json
+  format: json
+  description: Edit wording and links without changing the original design. Text is split where the original formatting
+    changes.
+  fields:
+  - name: index-0
+    label: Serious Damage — title
+    type: object
+    fields:
+    - name: text_01
+      label: Serious Damage
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-1
+    label: Serious Damage — description
+    type: object
+    fields:
+    - name: text_01
+      label: A GRAFFITI STORY
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: COMING 2/16/27
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_03
+      label: Graphic Memoir (Abrams ComicArts 2023)
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_04
+      label: An autobiographical YA graphic novel set in Seattle in the early …
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-2
+    label: Serious Damage — retailers
+    type: object
+    fields:
+    - name: text_01
+      label: Amazon‍
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: Barnes & Noble
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: link_01
+      label: Link destination 1
+      type: string
+      description: Use https:// for an external link or /path for a local page.
+    - name: link_02
+      label: Link destination 2
+      type: string
+      description: Use https:// for an external link or /path for a local page.
+    required: true
+  - name: index-3
+    label: Serious Damage — review
+    type: object
+    fields:
+    - name: text_01
+      label: Josh Tuininga  offers a heartfelt, insightful perspective on the …
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-4
+    label: Serious Damage — reviewer
+    type: object
+    fields:
+    - name: text_01
+      label: Nate Powell  |
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: The March Trilogy
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-5
+    label: We Are Not Strangers — title
+    type: object
+    fields:
+    - name: text_01
+      label: We Are Not Strangers
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-6
+    label: We Are Not Strangers — description and awards
+    type: object
+    fields:
+    - name: text_01
+      label: INSPIRED BY A TRUE STORY
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: (Abrams ComicArts 2023)
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_03
+      label: When Marco Calvo arrives at the Jewish Synagogue to attend his gr…
+      type: text
+      description: Plain text. Original formatting is preserved.
+    - name: text_04
+      label: AWARDS & HONORS
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_05
+      label: '2024'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_06
+      label: Washington State Book Award  |
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_07
+      label: FINALIST
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_08
+      label: '2024'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_09
+      label: National EGLA AWARD |  Best YA Non-Fiction Graphic Novel
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_10
+      label: WINNER
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_11
+      label: '2024'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_12
+      label: National Jewish Book Award  |
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_13
+      label: FINALIST
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_14
+      label: '2024'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_15
+      label: American Library Association |Sophie Brody Medal
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_16
+      label: HONOREE
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_17
+      label: '2024'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_18
+      label: KCLS Literary Lions  |
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_19
+      label: HONOR
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_20
+      label: '2024'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_21
+      label: Anti-Defamation League |
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_22
+      label: Books Matter Collection
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_23
+      label: '2024'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_24
+      label: Jewish Comic Experience | Combating Prejudice
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_25
+      label: AWARD
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_26
+      label: '2025'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_27
+      label: Tacoma Public LIbrary  |
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_28
+      label: Tacoma Reads Book of 2025
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_29
+      label: '2026'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_30
+      label: King County Library  |
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_31
+      label: Redmond Reads Book of 2026
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-7
+    label: We Are Not Strangers — retailers
+    type: object
+    fields:
+    - name: text_01
+      label: Amazon
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: Barnes & Noble
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: link_01
+      label: Link destination 1
+      type: string
+      description: Use https:// for an external link or /path for a local page.
+    - name: link_02
+      label: Link destination 2
+      type: string
+      description: Use https:// for an external link or /path for a local page.
+    required: true
+  - name: index-8
+    label: We Are Not Strangers — review
+    type: object
+    fields:
+    - name: text_01
+      label: “A forthright condemnation of a shameful chapter of American hist…
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-9
+    label: We Are Not Strangers — reviewer
+    type: object
+    fields:
+    - name: text_01
+      label: -Publisher’s Weekly
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-10
+    label: Paperback announcement
+    type: object
+    fields:
+    - name: text_01
+      label: PAPERBACK RELEASE
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: ‘WE ARE NOT STRANGERS’ Released in Paperback! Get your copy here …
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_03
+      label: BOOKSHOP.ORG
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_04
+      label: AMAZON
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: link_01
+      label: Link destination 1
+      type: string
+      description: Use https:// for an external link or /path for a local page.
+    - name: link_02
+      label: Link destination 2
+      type: string
+      description: Use https:// for an external link or /path for a local page.
+    required: true
+  - name: index-11
+    label: Press announcement
+    type: object
+    fields:
+    - name: text_01
+      label: PRESS
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: ‘We Are Not Strangers’  featured on New Day Northwest.
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_03
+      label: WATCH THE INTERVIEW
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: link_01
+      label: Link destination 1
+      type: string
+      description: Use https:// for an external link or /path for a local page.
+    required: true
+  - name: index-12
+    label: High St. — title
+    type: object
+    fields:
+    - name: text_01
+      label: High St.
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-13
+    label: High St. — description
+    type: object
+    fields:
+    - name: text_01
+      label: COMING WINTER 2027
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_02
+      label: (Fantagraphics)
+      type: string
+      description: Plain text. Original formatting is preserved.
+    - name: text_03
+      label: A dark comedy heist story about four friends struggling to make e…
+      type: text
+      description: Plain text. Original formatting is preserved.
+    - name: text_04
+      label: 'FOLLOW ME FOR UPDATES:'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-14
+    label: More projects link
+    type: object
+    fields:
+    - name: text_01
+      label: MORE PROJECTS
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: index-15
+    label: Instagram label
+    type: object
+    fields:
+    - name: text_01
+      label: '@BlueBusArt'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+- name: events
+  label: Calendar / events
+  type: file
+  path: cms/events.json
+  format: json
+  description: Manage the visible upcoming list. Move completed items into Additional past events; the original
+    archive below is retained unchanged. This is not an ICS calendar service.
+  fields:
+  - name: upcoming_heading
+    label: Upcoming heading
+    type: string
+    required: true
+  - name: upcoming
+    label: Upcoming events
+    type: object
+    list:
+      max: 200
+      collapsible:
+        collapsed: true
+        summary: '{title} — {when}'
+    fields: &id001
+    - name: title
+      label: Event or venue
+      type: string
+      required: true
+    - name: subtitle
+      label: Talk or panel title
+      type: string
+    - name: when
+      label: Date and time as displayed
+      type: string
+      required: true
+      description: Include the confirmed year and timezone for new events. Existing ambiguous source dates are preserved.
+    - name: details
+      label: Additional details
+      type: text
+    - name: url
+      label: Event information URL
+      type: string
+    - name: link_label
+      label: Link text
+      type: string
+    - name: image
+      label: Optional event image
+      type: image
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: image_alt
+      label: Image description
+      type: string
+  - name: additional_past
+    label: Additional past events
+    type: object
+    list:
+      max: 200
+      collapsible:
+        collapsed: true
+        summary: '{title} — {when}'
+    fields: *id001
+- name: presentations
+  label: Presentations text
+  type: file
+  path: cms/presentations.json
+  format: json
+  description: Edit wording and links without changing the original design. Text is split where the original formatting
+    changes.
+  fields:
+  - name: events-0
+    label: Presentations — heading
+    type: object
+    fields:
+    - name: text_01
+      label: PRESENTATIONS
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-1
+    label: Presentations — introduction
+    type: object
+    fields:
+    - name: text_01
+      label: I give presentations to schools, libraries, museums, and communit…
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-2
+    label: We Are Not Strangers — talk title
+    type: object
+    fields:
+    - name: text_01
+      label: We Are Not Strangers
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-3
+    label: We Are Not Strangers — talk description
+    type: object
+    fields:
+    - name: text_01
+      label: This Award winning graphic novel is based on the true story of a …
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-4
+    label: Sequential — talk title
+    type: object
+    fields:
+    - name: text_01
+      label: 'Sequential: The Storytelling Power of Comic Books'
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-5
+    label: Sequential — talk description
+    type: object
+    fields:
+    - name: text_01
+      label: Despite the graphic novel’s skyrocketing popularity, many still s…
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-6
+    label: First presentation review
+    type: object
+    fields:
+    - name: text_01
+      label: “A great experience! Truly meaningful and joyful. Josh provided m…
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-7
+    label: First reviewer
+    type: object
+    fields:
+    - name: text_01
+      label: Kristin Sierra  | Teacher Librarian, Lincoln High School
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-8
+    label: Second presentation review
+    type: object
+    fields:
+    - name: text_01
+      label: A fantastic virtual presentation! It was fascinating and the audi…
+      type: text
+      description: Plain text. Original formatting is preserved.
+    required: true
+  - name: events-9
+    label: Second reviewer
+    type: object
+    fields:
+    - name: text_01
+      label: Ilana Cone Kennedy | COO, Holocaust Center for Humanity
+      type: string
+      description: Plain text. Original formatting is preserved.
+    required: true
+- name: images
+  label: Homepage and presentation images
+  type: file
+  path: cms/images.json
+  format: json
+  description: Upload to assets/uploads. Keep similar aspect ratios to preserve the existing layout. Do not delete
+    original assets still used by other pages.
+  fields:
+  - name: serious_damage
+    label: Serious Damage cover
+    type: object
+    fields:
+    - name: image
+      label: Image
+      type: image
+      required: true
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: alt
+      label: Image description
+      type: string
+      description: A concise description for screen-reader users. The original empty description is retained until
+        edited.
+    required: true
+  - name: we_are_not_strangers
+    label: We Are Not Strangers cover
+    type: object
+    fields:
+    - name: image
+      label: Image
+      type: image
+      required: true
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: alt
+      label: Image description
+      type: string
+      description: A concise description for screen-reader users. The original empty description is retained until
+        edited.
+    required: true
+  - name: paperback
+    label: Paperback announcement image
+    type: object
+    fields:
+    - name: image
+      label: Image
+      type: image
+      required: true
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: alt
+      label: Image description
+      type: string
+      description: A concise description for screen-reader users. The original empty description is retained until
+        edited.
+    required: true
+  - name: press
+    label: Press announcement image
+    type: object
+    fields:
+    - name: image
+      label: Image
+      type: image
+      required: true
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: alt
+      label: Image description
+      type: string
+      description: A concise description for screen-reader users. The original empty description is retained until
+        edited.
+    required: true
+  - name: high_st
+    label: High St. cover
+    type: object
+    fields:
+    - name: image
+      label: Image
+      type: image
+      required: true
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: alt
+      label: Image description
+      type: string
+      description: A concise description for screen-reader users. The original empty description is retained until
+        edited.
+    required: true
+  - name: presentation
+    label: Presentation image
+    type: object
+    fields:
+    - name: image
+      label: Image
+      type: image
+      required: true
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: alt
+      label: Image description
+      type: string
+      description: A concise description for screen-reader users. The original empty description is retained until
+        edited.
+    required: true
+  - name: speaker
+    label: Speaker image
+    type: object
+    fields:
+    - name: image
+      label: Image
+      type: image
+      required: true
+      options:
+        media: images
+        path: dist/assets/uploads
+    - name: alt
+      label: Image description
+      type: string
+      description: A concise description for screen-reader users. The original empty description is retained until
+        edited.
+    required: true
+settings:
+  content:
+    merge: true

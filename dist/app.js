@@ -26,7 +26,7 @@ function safeHTML(html){const t=document.createElement('template');t.innerHTML=h
   if(/^on/i.test(a.name)||['srcdoc','contenteditable'].includes(a.name))el.removeAttribute(a.name);
   else if(['href','src','action','xlink:href'].includes(a.name)&&! /^(https?:|mailto:|tel:|#|\/|\.\/|\.\.\/)/i.test(a.value.trim()))el.removeAttribute(a.name);
   else if(a.name==='style'&&/url\s*\(|expression\s*\(|@import/i.test(a.value))el.removeAttribute(a.name);
- }if(ROOT!=='/')t.content.querySelectorAll('a[href^="/"]').forEach(a=>{const h=a.getAttribute('href');if(!h.startsWith('//')&&!h.startsWith(ROOT))a.setAttribute('href',ROOT+h.slice(1));});return t.innerHTML;
+ }if(ROOT!=='/')t.content.querySelectorAll('[href^="/"],[src^="/"]').forEach(a=>{for(const attr of ['href','src']){const h=a.getAttribute(attr);if(h&&!h.startsWith('//')&&!h.startsWith(ROOT))a.setAttribute(attr,ROOT+h.slice(1));}});return t.innerHTML;
 }
 async function content(){try{let d;const draft=new URLSearchParams(location.search).get('draft')==='1';if(draft)d=JSON.parse(sessionStorage.getItem('josh-fidelity-draft')||'null');if(!d){const r=await fetch(ROOT+'content.json');if(r.ok)d=await r.json();}if(d?.schema!==2)return;for(const b of d.pages[body.dataset.pageSlug]||[]){const target=document.querySelector(`[data-content-block="${CSS.escape(b.id)}"]`);if(target)target.innerHTML=safeHTML(b.html);}measureHeader();}catch{}}
 content();
